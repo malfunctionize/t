@@ -6,8 +6,8 @@ class TTS {
     let sh = kernel.sh()
     let result = await sh.request({
       "message": {
-        //_: ["source", ".env/bin/activate", "&&", "python3", "run.py", req.params.prompt],
-        _: ["python3", "run.py", req.params.prompt],
+        _: ["source", ".env/bin/activate", "&&", "python3", "run.py", req.params.prompt],
+        //_: ["python3", "run.py", req.params.prompt],
       },
       path: __dirname
     }, (packet) => {
