@@ -17,8 +17,8 @@ if (platform === "win32") {
     }, {
       "method": "sh",
       "params": {
-        //"message": "source .env/bin/activate && python3 -m pip install -r requirements.txt"
-        "message": "pip install --target=./.env -r requirements.txt"
+        "message": "source .env/bin/activate && python3 -m pip install -r requirements.txt"
+        //"message": "pip install --target=./.env -r requirements.txt"
       }
     }]
   }
