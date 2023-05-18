@@ -1,0 +1,35 @@
+{
+  "loop": true,
+  "run": [{
+      "method": "sh",
+      "params": {
+          "message": "which python3"
+      }
+  }, {
+    "uri": "https://github.com/malfunctionize/lla/index.js",
+    "method": "run",
+    "params": {
+      "message": {
+        "p": "### Instruction\n\nWrite a controversial opinion about a specific topic.\n\n### Response\n\n",
+        "m": "../models/stable-vicuna/13b_q4_0.bin",
+        "n": 256
+      }
+    }
+  }, {
+    "uri": "https://github.com/malfunctionize/lla/index.js",
+    "method": "run",
+    "params": {
+      "message": {
+        "p": "### Instruction\n\nWhy the following is wrong:\n\n{{input}}\n\n### Response\n\n",
+        "m": "../models/stable-vicuna/13b_q4_0.bin",
+        "n": 256
+      }
+    }
+  }, {
+    "uri": "tts",
+    "method": "run",
+    "params": {
+      "prompt": "{{input}}"
+    }
+  }]
+}
