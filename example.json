@@ -14,7 +14,8 @@
         "m": "../models/stable-vicuna/13b_q4_0.bin",
         "n": 256
       }
-    }
+    },
+    "queue": true
   }, {
     "uri": "https://github.com/malfunctionize/lla.git/index.js",
     "method": "run",
@@ -24,12 +25,14 @@
         "m": "../models/stable-vicuna/13b_q4_0.bin",
         "n": 256
       }
-    }
+    },
+    "queue": true
   }, {
     "uri": "https://github.com/malfunctionize/t.git/index.js",
     "method": "run",
     "params": {
       "prompt": "{{input}}"
-    }
+    },
+    "queue": true
   }]
 }
