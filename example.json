@@ -6,7 +6,7 @@
           "message": "which python3"
       }
   }, {
-    "uri": "https://github.com/malfunctionize/lla/index.js",
+    "uri": "https://github.com/malfunctionize/lla.git/index.js",
     "method": "run",
     "params": {
       "message": {
@@ -16,7 +16,7 @@
       }
     }
   }, {
-    "uri": "https://github.com/malfunctionize/lla/index.js",
+    "uri": "https://github.com/malfunctionize/lla.git/index.js",
     "method": "run",
     "params": {
       "message": {
@@ -26,7 +26,7 @@
       }
     }
   }, {
-    "uri": "https://github.com/malfunctionize/t/index.js",
+    "uri": "https://github.com/malfunctionize/t.git/index.js",
     "method": "run",
     "params": {
       "prompt": "{{input}}"
